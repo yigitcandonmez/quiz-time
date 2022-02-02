@@ -59,13 +59,17 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>React Quiz App</h1>
+      <h1 style={{ textAlign: "center", fontSize: "15px" }}>React Quiz App</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
         <button className="start" onClick={startTrivia}>
           Start
         </button>
       ) : null}
-      {!gameOver ? <p className="score">Score: {score}</p> : null}
+      {!gameOver ? (
+        <p className="score" style={{ textAlign: "center" }}>
+          Score: {score}
+        </p>
+      ) : null}
       {loading ? <p>Loading questions...</p> : null}
       {!loading && !gameOver && (
         <QuestionCard
