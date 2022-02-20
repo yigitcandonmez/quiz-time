@@ -1,15 +1,6 @@
 import React from "react";
-import { AnswerObject } from "../App";
-import "./index.css";
-
-type Props = {
-  question: string;
-  answers: string[];
-  callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
-  userAnswer: AnswerObject | undefined;
-  questionNumber: number;
-  totalQuestions: number;
-};
+import type { Props } from ".";
+import "./QuestionCard.module.scss";
 
 const QuestionCard: React.FC<Props> = ({
   question,
@@ -40,4 +31,4 @@ const QuestionCard: React.FC<Props> = ({
   </div>
 );
 
-export default QuestionCard;
+export { QuestionCard };

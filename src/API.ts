@@ -1,4 +1,3 @@
-import QuestionCard from "./components/QuestionCard";
 import { shuffleArray } from "./utils";
 
 export const enum Difficulty {
