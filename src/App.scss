@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.question {
+  width: 100%;
+  height: 600px;
+
+  > * {
+    padding: 0.5em 0;
+  }
+
+  .question__card {
+    > * {
+      padding: 0.5em 0;
+    }
+  }
+
+  .question__title {
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+  }
+
+  .question__info {
+    display: flex;
+
+    .score {
+      padding-left: 0.6em;
+    }
+  }
+
+  .question__answers {
+    width: 650px;
+  }
+
+  .question__btn {
+    width: 150px;
+    height: 40px;
+    margin: 0.4em 0;
+
+    > span {
+      font-family: "Roboto Serif", sans-serif;
+    }
+  }
+}
+
+.next__btn {
+  width: 100px;
+  height: 30px;
+}
+
+.start__btn {
+  width: 100px;
+  height: 30px;
+}
