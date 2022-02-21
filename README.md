@@ -7,7 +7,7 @@ Quiz Time, [Open Trivia API](https://opentdb.com/api_config.php) ile sağlanan �
 #### ToDo
 
 - [x] Stil düzenlemesi yapılmalı.
-- [x] Yanlış cevaplarda kırmızı bir çerçeve, doğru cevapta yeşil bir çerçeveyle karşılaşılmalı.
+- [x] Yanlış cevaplarda kırmızı, doğru cevapta yeşil renkli çerçeveyle karşılaşılmalı.
 - [ ] README - Neler öğrendim? Ne tür zorluklarla karşılaştım?
 - [ ] README - Kullanılan teknolojiler
 - [ ] README - Dosya mimarisi
