@@ -61,7 +61,7 @@ const App = () => {
   return (
     <div className="App container">
       <div className="question">
-        <h1 style={{ fontSize: "1.4em" }}>React Quiz App</h1>
+        <h1 style={{ fontSize: "1.4em" }}>Quiz Time</h1>
         <div className="game__start">
           {gameOver ? (
             <button className="start__btn" onClick={startTrivia}>

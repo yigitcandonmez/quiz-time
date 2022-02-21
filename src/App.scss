@@ -84,3 +84,11 @@ html,
   width: 100px;
   height: 30px;
 }
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
